@@ -1,0 +1,50 @@
+
+body {
+    height: 100%;
+    background-image: url("assets/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 5%;
+}
+.order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width:25rem;
+}
+.plan {
+   flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+} 
+
+ /* .container {
+     width: 30rem;
+     height: 20rem;
+      background-color:deeppink; 
+     border-radius: 20px; 
+      display: flex;
+     align-items: center;
+     justify-content: center; 
+     /* margin-left:auto;
+     margin-right: auto;
+     
+ /* }
+ .order h3 {
+     word-spacing: 5px;
+     letter-spacing: 2px;  
+ }
+ .order p {
+     /* width: 10rem; 
+     margin-bottom: 20px;
+ /* }
+  
